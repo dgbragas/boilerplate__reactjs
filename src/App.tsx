@@ -1,15 +1,13 @@
 import React from 'react';
-import { ThemeProvider, Theme } from 'styled-components';
+import { ThemeProvider } from 'styled-components';
 
 import Routes from './routes';
 import GlobalStyles from './styles/global';
-import DefaultTheme from './themes/default';
+import initial from './styles/themes/initial';
 
 const App: React.FC = () => {
-  const theme: Theme = DefaultTheme;
-
   return (
-    <ThemeProvider theme={theme}>
+    <ThemeProvider theme={initial}>
       <Routes />
       <GlobalStyles />
     </ThemeProvider>
