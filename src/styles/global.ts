@@ -11,8 +11,8 @@ export default createGlobalStyle`
     -webkit-font-smoothing: antialiased;
 
     ::selection {
-      background: ${({ theme: { colors } }) => colors.texts};
-      color: #fff;
+      background: #000;
+      color: ${({ theme: { colors } }) => colors.texts};
     }
 
     &:not(${headings}) {
@@ -25,7 +25,7 @@ export default createGlobalStyle`
   }
 
   html, body, #root {
-    background: linear-gradient(64.65deg, #E4A126 -24.78%, #F0C725 87.07%);
+    background: linear-gradient(46.79deg, #08B8E7 19.7%, #61DAFB 127.6%);
     height: 100%;
   }
 

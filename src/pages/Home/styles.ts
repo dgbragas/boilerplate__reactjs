@@ -7,6 +7,7 @@ export const Container = styled.div`
   justify-content: center;
 
   h1 {
+    color: ${({ theme: { colors } }) => colors.texts};
     font-size: 56px;
   }
 `;
