@@ -49,6 +49,12 @@ A ReactJS boilerplate created to simplify the project startup in projects using 
 
 *Note: to realize a commit using this boilerplate you can just type "git commit" in terminal (after stage your changes) and follow the sentenced steps displayed*
 
+### Using this boilerplate as a project template
+
+- **1st step:** On this project page click in "Use this template"
+- **2nd step:** After click you will be redirect to a new page where you will choose a repository name that you will create from this repo.
+- **3th step:** You will be redirect to your new created repository from template.
+
 ---
 
 Developed by @dgbragas
