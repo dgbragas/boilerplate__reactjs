@@ -1,12 +1,14 @@
 import React from 'react';
 
-import { Container } from './styles';
+import Typografy from '../../components/Typography';
+
+import * as S from './styles';
 
 const Home: React.FC = () => {
   return (
-    <Container>
-      <h1>Home</h1>
-    </Container>
+    <S.Container>
+      <Typografy tag="h1">ReactJS Boilerplate</Typografy>
+    </S.Container>
   );
 };
 
