@@ -10,17 +10,22 @@ export default createGlobalStyle`
     padding: 0;
     -webkit-font-smoothing: antialiased;
 
+    ::selection {
+      background: ${({ theme: { colors } }) => colors.texts};
+      color: #fff;
+    }
+
     &:not(${headings}) {
       font-family: Arial, Helvetica, sans-serif;
     }
   }
 
   ${headings} {
-    font-family: monospace;
+    font-family: 'Sedgwick Ave Display', cursive;
   }
 
   html, body, #root {
-    background-color: ${({ theme: { colors } }) => colors.primary};
+    background: linear-gradient(64.65deg, #E4A126 -24.78%, #F0C725 87.07%);
     height: 100%;
   }
 
