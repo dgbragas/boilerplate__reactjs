@@ -1,7 +1,7 @@
 <h1 align="center"><img src="./docs/banner.png" alt="Banner with 'ReactJS Boilerplate' writed in display web font" /></h1>
 
 <p align="center">
-  <img src="http://img.shields.io/static/v1?label=Last%20change&message=01/12/2020&color=GREEN&style=for-the-badge"/>
+  <img src="http://img.shields.io/static/v1?label=Last%20change&message=02/03/2021&color=GREEN&style=for-the-badge"/>
   <img src="https://img.shields.io/github/languages/count/dgbragas/boilerplate__reactjs?style=for-the-badge" />
   <img src="https://img.shields.io/github/repo-size/dgbragas/boilerplate__reactjs?style=for-the-badge" />
 </p>
