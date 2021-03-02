@@ -1,3 +1,4 @@
 node_modules
 *.todo
 .eslintcache
+yarn-error.log
