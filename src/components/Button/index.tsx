@@ -2,7 +2,7 @@ import React, { ReactNode } from 'react';
 
 import * as S from './styles';
 
-interface ButtonProps {
+export interface ButtonProps {
   bgColor?: string;
   textColor?: string;
   children: ReactNode;
