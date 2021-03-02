@@ -12,17 +12,17 @@ A ReactJS boilerplate created to simplify the project startup in projects using 
 ## **<img src="./docs/badge.png"> Principle dependencies**
 
 - **styled-components:** v5.2.1
-- **styled-media-query:** v2.1.1
-- **typescript:** v4.0.3
+- **styled-media-query:** v2.1.2
+- **typescript:** v4.2.2
 
 ### Principle lint and development dependencies
 
-- **commitlint:** v11.0.0
-- **commitizen:** v4.2.2
+- **commitlint:** v12.0.1
+- **commitizen:** v4.2.3
 - **cz-conventional-changelog:** v3.3.0
-- **eslint:** v6.6.0
-- **husky:** v4.3.0
-- **prettier:** v2.1.0
+- **eslint:** v7.21.0
+- **husky:** v5
+- **prettier:** v2.2.1
 
 
 ## **:warning: Prerequisites**
