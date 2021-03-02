@@ -17,12 +17,7 @@
     "plugin:@typescript-eslint/recommended",
     "plugin:prettier/recommended"
   ],
-  "plugins": [
-    "react",
-    "react-hooks",
-    "prettier",
-    "@typescript-eslint"
-  ],
+  "plugins": ["react", "react-hooks", "prettier", "@typescript-eslint", "import-helpers"],
   "rules": {
     "camelcase": "off",
     "no-use-before-define": "off",
@@ -42,9 +37,7 @@
     "react/jsx-filename-extension": [
       1,
       {
-        "extensions": [
-          ".tsx"
-        ]
+        "extensions": [".tsx"]
       }
     ],
     "import/prefer-default-export": "off",
@@ -54,6 +47,14 @@
       {
         "ts": "never",
         "tsx": "never"
+      }
+    ],
+    "import-helpers/order-imports": [
+      "warn",
+      {
+        "newlinesBetween": "always",
+        "groups": ["/^react/", "module", "/components^/", ["parent", "index"], "sibling"],
+        "alphabetize": { "order": "asc", "ignoreCase": true }
       }
     ]
   },
