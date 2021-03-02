@@ -1,11 +1,10 @@
-import React from 'react';
+import React, { ReactNode } from 'react';
 
 interface IfProps {
   condition: boolean;
+  children: ReactNode;
 }
 
-const If: React.FC<IfProps> = ({ children, condition }) => (
-  <>{condition && children}</>
-);
-
-export default If;
+export function If({ children, condition }: IfProps): JSX.Element {
+  return <>{condition && children}</>;
+}

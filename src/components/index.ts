@@ -1,4 +1,4 @@
-export { default as Button } from './Button';
-export { default as Grid } from './Grid';
-export { default as If } from './If';
-export { default as Typography } from './Typography';
+export { Button } from './Button';
+export { Grid } from './Grid';
+export { If } from './If';
+export { Typografy } from './Typography';

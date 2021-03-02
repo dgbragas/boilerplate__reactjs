@@ -1,21 +1,22 @@
-import React from 'react';
+import React, { ReactNode } from 'react';
 
 import * as S from './styles';
 
-export interface ButtonProps {
+interface ButtonProps {
   bgColor?: string;
   textColor?: string;
+  children: ReactNode;
 }
 
-const Button: React.FC<ButtonProps> = ({
+export function Button({
   bgColor = '#fff',
   textColor = '#000',
   children,
   ...props
-}) => (
-  <S.Container bgColor={bgColor} textColor={textColor} {...props}>
-    {children}
-  </S.Container>
-);
-
-export default Button;
+}: ButtonProps): JSX.Element {
+  return (
+    <S.Container bgColor={bgColor} textColor={textColor} {...props}>
+      {children}
+    </S.Container>
+  );
+}

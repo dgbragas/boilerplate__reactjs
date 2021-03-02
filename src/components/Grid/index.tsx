@@ -1,7 +1,11 @@
-import React from 'react';
+import React, { ReactNode } from 'react';
 
 import * as S from './styles';
 
-const Grid: React.FC = ({ children }) => <S.Container>{children}</S.Container>;
+interface GridProps {
+  children: ReactNode;
+}
 
-export default Grid;
+export function Grid({ children }: GridProps): JSX.Element {
+  return <S.Container>{children}</S.Container>;
+}

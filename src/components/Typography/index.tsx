@@ -1,13 +1,14 @@
-import React from 'react';
+import React, { ReactNode } from 'react';
 
 interface TypographyProps {
   tag: keyof JSX.IntrinsicElements;
+  children: ReactNode;
 }
 
-const Typografy: React.FC<TypographyProps> = ({
+export function Typografy({
   tag: Tag = 'p',
   children,
   ...rest
-}) => <Tag {...rest}>{children}</Tag>;
-
-export default Typografy;
+}: TypographyProps): JSX.Element {
+  return <Tag {...rest}>{children}</Tag>;
+}
